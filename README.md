@@ -2,7 +2,7 @@
 > Data Source: Twitter API @WeRateDogs
 
 ## Introduction
-The project focuses mainly data wrangling - one of the most important processes during the data analytics. 
+The project focuses mainly on data wrangling - one of the most important processes during the data analytics. 
 The final file `twitter_archive_master.csv` collects 1961 original tweet data with dog images posted by the twitter account @WeRateDogs from 11 November 2015 to 1 August 2017. This dataset contains the basic information, including tweet id, the posted time and source (iPhone, Web, or TweetDeck), the URLs of the tweet and also the tweet image, the name and the stage of the dog(s) in the tweet (if applicable), the rating, and the “like” and retweet counts
 
 ## Files Uploaded
@@ -74,5 +74,5 @@ and redundant "expanded_urls" column (which also has some missing values - 2094 
 data completeness at maximum).
 
 ##### Code & Test
-+ See the detailed process in the `wranle_act.ipynb`
++ See the detailed process in the `wrangle_act.ipynb`
  *(Note: the final dataset `twitter_archive_master.csv` contains only 1971 values after the merge)*
